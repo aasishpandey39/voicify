@@ -1,0 +1,73 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg,#0c0462f6, #97029f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #6c6af0;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 2.5rem;
+    color: #f2f4f5;
+    margin-bottom: 20px;
+}
+
+/* Paragraph Styles */
+p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #f2f6f7;
+}
+
+/* Button Styles */
+button {
+    padding: 15px 25px;
+    background-color: #1e0d4f;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #f9f9fb;
+    color: #1e0d4f;
+}
+button:active{
+    background-color: #240c6c;
+}
+
+
+/* Textarea Styles */
+textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    border: 1px solid #b2bec3;
+    margin-top: 20px;
+    resize: none;
+    background: #222045;
+    color: #f5f6f6;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice to Text Converter</title>
+    <link rel="stylesheet" href="speech_to_text.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Voice to Text Converter</h1>
+        <p>Click the button and start speaking. Your speech will be converted to text below.</p>
+
+        <!-- Button to Start Voice Recognition -->
+        <button id="startBtn">Start Recording</button>
+        <p id="status">Press the button and start talking...</p>
+
+        <!-- Output Text Area -->
+        <textarea id="resultText" rows="8" placeholder="Your speech will appear here..." readonly></textarea>
+    </div>
+
+    <script src="speech_to_text.js"></script>
+</body>
+</html>

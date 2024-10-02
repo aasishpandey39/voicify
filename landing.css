@@ -1,0 +1,77 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg,#0c0462f6, #97029f);
+    color: #2d3436;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Landing Container Styles */
+.landing-container {
+    position: relative; /* Necessary for positioning buttons */
+    width: 100%;
+    height: 50%;
+    background: #222045;
+    padding: 40px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+/* Header Styles */
+h1 {
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Paragraph (description) Styles */
+p {
+    font-size: 1.2rem;
+    color: #dfe6e9;
+    margin-bottom: 30px;
+}
+
+/* Call to Action Button Styles */
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #f4f5f6;
+    color: #141313;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 40px;
+    transition: background-color 0.3s ease;
+    position: absolute; /* Added for positioning buttons */
+}
+
+.cta-button:hover {
+    background-color: #1b72fd;
+    color: white;
+}
+
+.cta-button:active {
+    background-color: hsl(253, 96%, 50%);
+}
+
+/* Specific Positioning for Buttons */
+.cta-button:first-child {
+    bottom: 20px;
+    left: 20px;  /* Bottom-left for Text to Speech */
+}
+
+.cta-button:last-child {
+    bottom: 20px;
+    right: 20px; /* Bottom-right for Speech to Text */
+}

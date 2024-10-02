@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg,#0c0462f6, #97029f);
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.hero h1{
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+.hero h1 span{
+    color: #f62929;
+}
+
+textarea{
+    width: 600px;
+    height: 250px;
+    background: #222045;
+    color: #fff;
+    font-size: 15px;
+    border: 0;
+    outline: 0;
+    padding: 20px;
+    border-radius: 15px;
+    resize: none;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(17, 2, 2, 0.1);
+}
+
+textarea::placeholder{
+    font-size: 16px;
+    color: #ddd;
+}
+
+.row{
+    width: 600px;
+    display:flex ;
+    align-items: center;
+    gap: 20px;
+   
+}
+
+button{
+    background: #f62929;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 35px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    
+}
+
+button img {
+    width: 16px;
+    margin-right: 10px;
+}
+
+select{
+    flex: 1;
+    color: #fff;
+    background: #222045;
+    height: 50px;
+    width: 50px;
+    padding:  0 10px;
+    outline: 0;
+    border: 0;
+    border-radius: 35px;
+    appearance: none;
+    background-image: url(drop\ down-arrow-50.png);
+    background-repeat: no-repeat;
+    background-size: 10px;
+    background-position-x: calc(100% - 20px);
+    background-position-y: 20px;
+}
+
+button:hover{
+    background: rgb(134, 2, 2);
+    color: rgb(251, 246, 246);
+    box-shadow: 2px 2px 5px rgb(54, 6, 6);
+}
+
+button:active{
+    background-color: hsl(0, 95%, 15%);
+}
+
+
