@@ -85,7 +85,7 @@ select{
     border: 0;
     border-radius: 35px;
     appearance: none;
-    background-image: url(drop\ down-arrow-50.png);
+    background-image: url(/images/drop\ down-arrow-50.png);
     background-repeat: no-repeat;
     background-size: 10px;
     background-position-x: calc(100% - 20px);
